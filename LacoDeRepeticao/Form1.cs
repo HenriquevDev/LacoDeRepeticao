@@ -19,16 +19,21 @@ namespace LacoDeRepeticao
 
         private void buttonexecutar_Click(object sender, EventArgs e)
         {
-            listFor.Items.Add(1);
-            listFor.Items.Add(2);
-            listFor.Items.Add(3);
-            listFor.Items.Add(4);
-            listFor.Items.Add(5);
-            listFor.Items.Add(6);
-            listFor.Items.Add(7);
-            listFor.Items.Add(8);
-            listFor.Items.Add(9);
-            listFor.Items.Add(10);
+        //    listFor.Items.Add(1);  
+        //    listFor.Items.Add(2);
+        //    listFor.Items.Add(3);
+        //    listFor.Items.Add(4);
+        //    listFor.Items.Add(5);
+        //    listFor.Items.Add(6);
+        //    listFor.Items.Add(7);
+        //    listFor.Items.Add(8);
+        //    listFor.Items.Add(9);
+        //    listFor.Items.Add(10); 
+        for (int valor =0; valor <=10; valor++)
+            {
+                listFor.Items.Add(valor);
+            }
+
         }
     }
 }
